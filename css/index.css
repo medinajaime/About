@@ -57,3 +57,15 @@ footer {
 	transform: scale(1.1);}
 .top-button:hover{
 	transform: scale(1.1);}
+.pic1 {
+	padding-right: 30px;
+	float: right;}
+.pic3{
+	padding-right: 30px;
+	float: right;
+}
+.clear {
+	clear: right;}
+article {
+	padding: 20px;}
+

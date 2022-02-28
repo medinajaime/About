@@ -7,7 +7,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/form.css">
-	<title>Jaime Medina</title>
+	<link rel="icon" href="pictures/favicon.ico" type="pictures/x-icon">
+	<title>Form</title>
 </head>
 <body>
 	<header class="navigation">
@@ -22,7 +23,60 @@
         </ul>
 			</nav>
 	</header>
-	
+	<form>
+
+		<h3>Please fill your information below:</h3>
+		<label for="fisrt-name">First name:</label><br>
+  		<input type="text" id="fname" name="fname"><br>
+  		<label for="last-name">Last name:</label><br>
+  		<input type="text" id="lname" name="lname"><br><br>
+
+  		<label for="email">Email:</label>
+  		<input type="email" id="email" name="email"><br><br>
+
+  		<label for="distr">Which do you live?</label>
+  		<select id="distr" name="distr"><br>
+    	<option value="coroza">Corozal</option>
+    	<option value="orangewal">Orange Walk</option>
+    	<option value="beliz">Belize</option>
+    	<option value="cay">Cayo</option>
+    	<option value="stanncree">Stann Creek</option>
+    	<option value="toled">Toledo</option>
+    	</select><br>
+
+  		<p>What is your favourite District?</p>
+  		<input type="radio" id="corozal" name="fav_district" value="Corozal">
+  		<label for="corozal">Corozal</label><br>
+  		<input type="radio" id="orangewalk" name="fav_district" value="Orangewalk">
+  		<label for="orangewalk">Orange Walk</label><br>
+  		<input type="radio" id="belize" name="fav_district" value="Belize">
+  		<label for="belize">Belize</label><br>
+  		<input type="radio" id="cayo" name="fav_district" value="Cayo">
+  		<label for="cayo">Cayo</label><br>
+  		<input type="radio" id="stanncreek" name="fav_district" value="Stanncreek">
+  		<label for="stanncreek">Stann Creek</label><br>
+  		<input type="radio" id="toledo" name="fav_district" value="Toledo">
+  		<label for="toledo">Toledo</label><br>
+
+  		<p>What Districts Have you visited?</p>
+  		<input type="checkbox" id="corozal" name="fav_district" value="Corozal">
+  		<label for="corozal">Corozal</label><br>
+  		<input type="checkbox" id="orangewalk" name="fav_district" value="Orangewalk">
+  		<label for="orangewalk">Orange Walk</label><br>
+  		<input type="checkbox" id="belize" name="fav_district" value="Belize">
+  		<label for="belize">Belize</label><br>
+  		<input type="checkbox" id="cayo" name="fav_district" value="Cayo">
+  		<label for="cayo">Cayo</label><br>
+  		<input type="checkbox" id="stanncreek" name="fav_district" value="Stanncreek">
+  		<label for="stanncreek">Stann Creek</label><br>
+  		<input type="checkbox" id="toledo" name="fav_district" value="Toledo">
+  		<label for="toledo">Toledo</label><br><br>
+  		<p>Please specify any concerns you have:</p>
+  		<textarea name="message" rows="10" cols="30">Type Here.</textarea><br><br>
+  		<input type="submit" value="Submit">
+  		<input type="reset">
+
+	</form>
 	<footer >
 		<p class="github">
 		<a class="left" href="https://github.com/medinajaime/crave" target="_blank"><img src="pictures/github.jpeg" class="icon-style" alt="Github Icon">  View the Project on GitHub</a>
