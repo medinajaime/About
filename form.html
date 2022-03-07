@@ -23,18 +23,36 @@
         </ul>
 			</nav>
 	</header>
-	<form>
+
+	<form >
 
 		<h3>Please fill your information below:</h3>
+		<fieldset>
+
+		<legend>Contact Details</legend>
 		<label for="fisrt-name">First name:</label><br>
   		<input type="text" id="fname" name="fname"><br>
   		<label for="last-name">Last name:</label><br>
-  		<input type="text" id="lname" name="lname"><br><br>
+  		<input type="text" id="lname" name="lname"><br>
+		<label>Email:<br />
+		<input type="text" name="email" /></label><br />
+		<label>Mobile <br />
+		<input type="text" name="mobile" /></label><br />
+		<label>Telephone <br />
+		<input type="text" name="Telephone"></label>
+	</fieldset>
 
-  		<label for="email">Email:</label>
-  		<input type="email" id="email" name="email"><br><br>
+	
+	<br><label>Age: <input type="text" name="age"></label> <br /><br>
+	Gender:
+	<input id="female" type="radio" name="gender">
+	<label for="female">Female</label>
+	<input id="male" type="radio" name="gender">
+	<label for="male">Male</label><br>
 
-  		<label for="distr">Which do you live?</label>
+  	
+
+  		<br><label for="distr">Which do you live?</label>
   		<select id="distr" name="distr"><br>
     	<option value="coroza">Corozal</option>
     	<option value="orangewal">Orange Walk</option>
@@ -59,22 +77,24 @@
   		<label for="toledo">Toledo</label><br>
 
   		<p>What Districts Have you visited?</p>
-  		<input type="checkbox" id="corozal" name="fav_district" value="Corozal">
-  		<label for="corozal">Corozal</label><br>
-  		<input type="checkbox" id="orangewalk" name="fav_district" value="Orangewalk">
-  		<label for="orangewalk">Orange Walk</label><br>
-  		<input type="checkbox" id="belize" name="fav_district" value="Belize">
-  		<label for="belize">Belize</label><br>
-  		<input type="checkbox" id="cayo" name="fav_district" value="Cayo">
-  		<label for="cayo">Cayo</label><br>
-  		<input type="checkbox" id="stanncreek" name="fav_district" value="Stanncreek">
-  		<label for="stanncreek">Stann Creek</label><br>
-  		<input type="checkbox" id="toledo" name="fav_district" value="Toledo">
-  		<label for="toledo">Toledo</label><br><br>
+  			<input type="checkbox" id="corozal" name="fav_district" value="Corozal">
+  			<label for="corozal">Corozal</label><br>
+  			<input type="checkbox" id="orangewalk" name="fav_district" value="Orangewalk">
+  			<label for="orangewalk">Orange Walk</label><br>
+  			<input type="checkbox" id="belize" name="fav_district" value="Belize">
+  			<label for="belize">Belize</label><br>
+  			<input type="checkbox" id="cayo" name="fav_district" value="Cayo">
+  			<label for="cayo">Cayo</label><br>
+  			<input type="checkbox" id="stanncreek" name="fav_district" value="Stanncreek">
+  			<label for="stanncreek">Stann Creek</label><br>
+  			<input type="checkbox" id="toledo" name="fav_district" value="Toledo">
+  			<label for="toledo">Toledo</label><br><br>
   		<p>Please specify any concerns you have:</p>
-  		<textarea name="message" rows="10" cols="30">Type Here.</textarea><br><br>
-  		<input type="submit" value="Submit">
-  		<input type="reset">
+  			<textarea name="message" rows="10" cols="30">Type Here.</textarea><br><br>
+  			<label>Birthday this Year:</label>
+  			<input type="date" name="depart"><br><br><hr>
+  			<input type="submit" value="Submit">
+  			<input type="reset">
 
 	</form>
 	<div class="map">
