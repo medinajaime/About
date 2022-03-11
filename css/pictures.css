@@ -59,8 +59,7 @@ footer {
 	transform: scale(1.1);}
 .column {
 	float: left;
-	padding: 25px;
-}
+	padding: 25px;}
 .clear{
 	clear: left;
 }
